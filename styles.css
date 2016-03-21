@@ -1,3 +1,42 @@
+.paragraph {
+	font-family: Georgia;
+}
+#steph {
+	color: blue;
+}
+#bron {
+	color: maroon;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: purple;
+}
+a:active {
+    color: green;
+}
 body {
-	background: blue
+    background-image: url("https://www.mmawards.com/ProdImages/CRY211.jpg");
+    background-color: teal;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+}
+.visi {
+	width: 180px;
+	padding: 25px;
+    border: 15px solid navy;
+    margin: 15px;
+}
+footer {
+	margin: auto;
+    width: 10%;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 50%;
+    }
 }
